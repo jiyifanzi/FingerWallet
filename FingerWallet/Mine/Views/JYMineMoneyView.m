@@ -14,7 +14,7 @@
 
 @property (nonatomic, strong) UILabel * contentLabel;
 
-
+@property (nonatomic, strong) UILabel * hhhe;
 @end
 
 @implementation JYMineMoneyView
