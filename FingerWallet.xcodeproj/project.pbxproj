@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AC9A391EAEE840004007F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9A381EAEE840004007F3 /* main.m */; };
+		18AC9A3C1EAEE840004007F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9A3B1EAEE840004007F3 /* AppDelegate.m */; };
+		18AC9A3F1EAEE840004007F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9A3E1EAEE840004007F3 /* ViewController.m */; };
+		18AC9A421EAEE840004007F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AC9A401EAEE840004007F3 /* Main.storyboard */; };
+		18AC9A441EAEE840004007F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AC9A431EAEE840004007F3 /* Assets.xcassets */; };
+		18AC9A471EAEE840004007F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AC9A451EAEE840004007F3 /* LaunchScreen.storyboard */; };
+		18AC9A521EAEE840004007F3 /* FingerWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9A511EAEE840004007F3 /* FingerWalletTests.m */; };
+		18AC9A5D1EAEE841004007F3 /* FingerWalletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9A5C1EAEE841004007F3 /* FingerWalletUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18AC9A4E1EAEE840004007F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18AC9A2C1EAEE840004007F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18AC9A331EAEE840004007F3;
+			remoteInfo = FingerWallet;
+		};
+		18AC9A591EAEE841004007F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18AC9A2C1EAEE840004007F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18AC9A331EAEE840004007F3;
+			remoteInfo = FingerWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18AC9A341EAEE840004007F3 /* FingerWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AC9A381EAEE840004007F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18AC9A3A1EAEE840004007F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18AC9A3B1EAEE840004007F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18AC9A3D1EAEE840004007F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18AC9A3E1EAEE840004007F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18AC9A411EAEE840004007F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18AC9A431EAEE840004007F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18AC9A461EAEE840004007F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18AC9A481EAEE840004007F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AC9A4D1EAEE840004007F3 /* FingerWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AC9A511EAEE840004007F3 /* FingerWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerWalletTests.m; sourceTree = "<group>"; };
+		18AC9A531EAEE840004007F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AC9A581EAEE841004007F3 /* FingerWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AC9A5C1EAEE841004007F3 /* FingerWalletUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerWalletUITests.m; sourceTree = "<group>"; };
+		18AC9A5E1EAEE841004007F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AC9A311EAEE840004007F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC9A4A1EAEE840004007F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC9A551EAEE841004007F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AC9A2B1EAEE840004007F3 = {
+			isa = PBXGroup;
+			children = (
+				18AC9A361EAEE840004007F3 /* FingerWallet */,
+				18AC9A501EAEE840004007F3 /* FingerWalletTests */,
+				18AC9A5B1EAEE841004007F3 /* FingerWalletUITests */,
+				18AC9A351EAEE840004007F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18AC9A351EAEE840004007F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9A341EAEE840004007F3 /* FingerWallet.app */,
+				18AC9A4D1EAEE840004007F3 /* FingerWalletTests.xctest */,
+				18AC9A581EAEE841004007F3 /* FingerWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18AC9A361EAEE840004007F3 /* FingerWallet */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9A3A1EAEE840004007F3 /* AppDelegate.h */,
+				18AC9A3B1EAEE840004007F3 /* AppDelegate.m */,
+				18AC9A3D1EAEE840004007F3 /* ViewController.h */,
+				18AC9A3E1EAEE840004007F3 /* ViewController.m */,
+				18AC9A401EAEE840004007F3 /* Main.storyboard */,
+				18AC9A431EAEE840004007F3 /* Assets.xcassets */,
+				18AC9A451EAEE840004007F3 /* LaunchScreen.storyboard */,
+				18AC9A481EAEE840004007F3 /* Info.plist */,
+				18AC9A371EAEE840004007F3 /* Supporting Files */,
+			);
+			path = FingerWallet;
+			sourceTree = "<group>";
+		};
+		18AC9A371EAEE840004007F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9A381EAEE840004007F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18AC9A501EAEE840004007F3 /* FingerWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9A511EAEE840004007F3 /* FingerWalletTests.m */,
+				18AC9A531EAEE840004007F3 /* Info.plist */,
+			);
+			path = FingerWalletTests;
+			sourceTree = "<group>";
+		};
+		18AC9A5B1EAEE841004007F3 /* FingerWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9A5C1EAEE841004007F3 /* FingerWalletUITests.m */,
+				18AC9A5E1EAEE841004007F3 /* Info.plist */,
+			);
+			path = FingerWalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18AC9A331EAEE840004007F3 /* FingerWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AC9A611EAEE841004007F3 /* Build configuration list for PBXNativeTarget "FingerWallet" */;
+			buildPhases = (
+				18AC9A301EAEE840004007F3 /* Sources */,
+				18AC9A311EAEE840004007F3 /* Frameworks */,
+				18AC9A321EAEE840004007F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerWallet;
+			productName = FingerWallet;
+			productReference = 18AC9A341EAEE840004007F3 /* FingerWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18AC9A4C1EAEE840004007F3 /* FingerWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AC9A641EAEE841004007F3 /* Build configuration list for PBXNativeTarget "FingerWalletTests" */;
+			buildPhases = (
+				18AC9A491EAEE840004007F3 /* Sources */,
+				18AC9A4A1EAEE840004007F3 /* Frameworks */,
+				18AC9A4B1EAEE840004007F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18AC9A4F1EAEE840004007F3 /* PBXTargetDependency */,
+			);
+			name = FingerWalletTests;
+			productName = FingerWalletTests;
+			productReference = 18AC9A4D1EAEE840004007F3 /* FingerWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18AC9A571EAEE841004007F3 /* FingerWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AC9A671EAEE841004007F3 /* Build configuration list for PBXNativeTarget "FingerWalletUITests" */;
+			buildPhases = (
+				18AC9A541EAEE841004007F3 /* Sources */,
+				18AC9A551EAEE841004007F3 /* Frameworks */,
+				18AC9A561EAEE841004007F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18AC9A5A1EAEE841004007F3 /* PBXTargetDependency */,
+			);
+			name = FingerWalletUITests;
+			productName = FingerWalletUITests;
+			productReference = 18AC9A581EAEE841004007F3 /* FingerWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18AC9A2C1EAEE840004007F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JiYi;
+				TargetAttributes = {
+					18AC9A331EAEE840004007F3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					18AC9A4C1EAEE840004007F3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18AC9A331EAEE840004007F3;
+					};
+					18AC9A571EAEE841004007F3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18AC9A331EAEE840004007F3;
+					};
+				};
+			};
+			buildConfigurationList = 18AC9A2F1EAEE840004007F3 /* Build configuration list for PBXProject "FingerWallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18AC9A2B1EAEE840004007F3;
+			productRefGroup = 18AC9A351EAEE840004007F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18AC9A331EAEE840004007F3 /* FingerWallet */,
+				18AC9A4C1EAEE840004007F3 /* FingerWalletTests */,
+				18AC9A571EAEE841004007F3 /* FingerWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18AC9A321EAEE840004007F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC9A471EAEE840004007F3 /* LaunchScreen.storyboard in Resources */,
+				18AC9A441EAEE840004007F3 /* Assets.xcassets in Resources */,
+				18AC9A421EAEE840004007F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC9A4B1EAEE840004007F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC9A561EAEE841004007F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18AC9A301EAEE840004007F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC9A3F1EAEE840004007F3 /* ViewController.m in Sources */,
+				18AC9A3C1EAEE840004007F3 /* AppDelegate.m in Sources */,
+				18AC9A391EAEE840004007F3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC9A491EAEE840004007F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC9A521EAEE840004007F3 /* FingerWalletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC9A541EAEE841004007F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC9A5D1EAEE841004007F3 /* FingerWalletUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18AC9A4F1EAEE840004007F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18AC9A331EAEE840004007F3 /* FingerWallet */;
+			targetProxy = 18AC9A4E1EAEE840004007F3 /* PBXContainerItemProxy */;
+		};
+		18AC9A5A1EAEE841004007F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18AC9A331EAEE840004007F3 /* FingerWallet */;
+			targetProxy = 18AC9A591EAEE841004007F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18AC9A401EAEE840004007F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AC9A411EAEE840004007F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18AC9A451EAEE840004007F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AC9A461EAEE840004007F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18AC9A5F1EAEE841004007F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18AC9A601EAEE841004007F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18AC9A621EAEE841004007F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FingerWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JY.FingerWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18AC9A631EAEE841004007F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FingerWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JY.FingerWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18AC9A651EAEE841004007F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FingerWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JY.FingerWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerWallet.app/FingerWallet";
+			};
+			name = Debug;
+		};
+		18AC9A661EAEE841004007F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FingerWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JY.FingerWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerWallet.app/FingerWallet";
+			};
+			name = Release;
+		};
+		18AC9A681EAEE841004007F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FingerWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JY.FingerWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FingerWallet;
+			};
+			name = Debug;
+		};
+		18AC9A691EAEE841004007F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FingerWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JY.FingerWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FingerWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18AC9A2F1EAEE840004007F3 /* Build configuration list for PBXProject "FingerWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC9A5F1EAEE841004007F3 /* Debug */,
+				18AC9A601EAEE841004007F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AC9A611EAEE841004007F3 /* Build configuration list for PBXNativeTarget "FingerWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC9A621EAEE841004007F3 /* Debug */,
+				18AC9A631EAEE841004007F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18AC9A641EAEE841004007F3 /* Build configuration list for PBXNativeTarget "FingerWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC9A651EAEE841004007F3 /* Debug */,
+				18AC9A661EAEE841004007F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18AC9A671EAEE841004007F3 /* Build configuration list for PBXNativeTarget "FingerWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC9A681EAEE841004007F3 /* Debug */,
+				18AC9A691EAEE841004007F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18AC9A2C1EAEE840004007F3 /* Project object */;
+}
