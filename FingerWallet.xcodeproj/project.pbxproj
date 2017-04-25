@@ -15,6 +15,34 @@
 		18AC9A471EAEE840004007F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AC9A451EAEE840004007F3 /* LaunchScreen.storyboard */; };
 		18AC9A521EAEE840004007F3 /* FingerWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9A511EAEE840004007F3 /* FingerWalletTests.m */; };
 		18AC9A5D1EAEE841004007F3 /* FingerWalletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9A5C1EAEE841004007F3 /* FingerWalletUITests.m */; };
+		18AC9A701EAEE90B004007F3 /* JYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9A6F1EAEE90B004007F3 /* JYBaseViewController.m */; };
+		18AC9A731EAEE91D004007F3 /* JYBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9A721EAEE91D004007F3 /* JYBaseNavigationController.m */; };
+		18AC9A761EAEE92A004007F3 /* JYTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9A751EAEE92A004007F3 /* JYTools.m */; };
+		18AC9A7A1EAEE954004007F3 /* JYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9A791EAEE954004007F3 /* JYTabBarController.m */; };
+		18AC9A801EAEE9A6004007F3 /* JYBrowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9A7F1EAEE9A6004007F3 /* JYBrowerViewController.m */; };
+		18AC9A831EAEE9AF004007F3 /* JYReturnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9A821EAEE9AF004007F3 /* JYReturnViewController.m */; };
+		18AC9A861EAEE9B6004007F3 /* JYMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9A851EAEE9B6004007F3 /* JYMineViewController.m */; };
+		18AC9AA61EAEF8E0004007F3 /* brower_sl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC9AA01EAEF8E0004007F3 /* brower_sl@2x.png */; };
+		18AC9AA71EAEF8E0004007F3 /* brower@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC9AA11EAEF8E0004007F3 /* brower@2x.png */; };
+		18AC9AA81EAEF8E0004007F3 /* return_sl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC9AA21EAEF8E0004007F3 /* return_sl@2x.png */; };
+		18AC9AA91EAEF8E0004007F3 /* return@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC9AA31EAEF8E0004007F3 /* return@2x.png */; };
+		18AC9AAA1EAEF8E1004007F3 /* mine_sl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC9AA41EAEF8E0004007F3 /* mine_sl@2x.png */; };
+		18AC9AAB1EAEF8E1004007F3 /* mine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC9AA51EAEF8E0004007F3 /* mine@2x.png */; };
+		18AC9AAD1EAEFCB8004007F3 /* tou.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC9AAC1EAEFCB8004007F3 /* tou.png */; };
+		18AC9AAF1EAEFF37004007F3 /* msgImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC9AAE1EAEFF37004007F3 /* msgImage.png */; };
+		18AC9AB41EAF0AB9004007F3 /* JYBMoneyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9AB21EAF0AB9004007F3 /* JYBMoneyTableViewCell.m */; };
+		18AC9AB51EAF0AB9004007F3 /* JYBMoneyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AC9AB31EAF0AB9004007F3 /* JYBMoneyTableViewCell.xib */; };
+		18AC9AB91EAF0AC8004007F3 /* JYBDaysTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9AB71EAF0AC8004007F3 /* JYBDaysTableViewCell.m */; };
+		18AC9ABA1EAF0AC8004007F3 /* JYBDaysTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AC9AB81EAF0AC8004007F3 /* JYBDaysTableViewCell.xib */; };
+		18AC9ABE1EAF0C98004007F3 /* UIViewController+DismissKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9ABD1EAF0C98004007F3 /* UIViewController+DismissKeyboard.m */; };
+		18AC9AC11EAF1374004007F3 /* UITextField+CHTHealper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9AC01EAF1374004007F3 /* UITextField+CHTHealper.m */; };
+		18AC9AC51EAF15A0004007F3 /* navBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC9AC41EAF15A0004007F3 /* navBG.png */; };
+		18AC9ACA1EAF1A5A004007F3 /* JYRMoneyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9AC81EAF1A5A004007F3 /* JYRMoneyTableViewCell.m */; };
+		18AC9ACB1EAF1A5A004007F3 /* JYRMoneyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AC9AC91EAF1A5A004007F3 /* JYRMoneyTableViewCell.xib */; };
+		18AC9ACF1EAF2278004007F3 /* JYMineMoneyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC9ACE1EAF2278004007F3 /* JYMineMoneyView.m */; };
+		8EC6AA4FFC58C9C674CDC53D /* libPods-FingerWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DD06059463D020A0103388 /* libPods-FingerWallet.a */; };
+		BDCBA87E33D1976922ECD94C /* libPods-FingerWalletTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D67D29293FBC010787B7072B /* libPods-FingerWalletTests.a */; };
+		D24EB5C4F0107A10F1542D57 /* libPods-FingerWalletUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80EAD32A0DF7CF2B52448EF8 /* libPods-FingerWalletUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +65,68 @@
 /* Begin PBXFileReference section */
 		18AC9A341EAEE840004007F3 /* FingerWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AC9A381EAEE840004007F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18AC9A3A1EAEE840004007F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		18AC9A3B1EAEE840004007F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18AC9A3D1EAEE840004007F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18AC9A3E1EAEE840004007F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18AC9A3A1EAEE840004007F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		18AC9A3B1EAEE840004007F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		18AC9A3D1EAEE840004007F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		18AC9A3E1EAEE840004007F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		18AC9A411EAEE840004007F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18AC9A431EAEE840004007F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18AC9A431EAEE840004007F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		18AC9A461EAEE840004007F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18AC9A481EAEE840004007F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AC9A481EAEE840004007F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		18AC9A4D1EAEE840004007F3 /* FingerWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AC9A511EAEE840004007F3 /* FingerWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerWalletTests.m; sourceTree = "<group>"; };
 		18AC9A531EAEE840004007F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18AC9A581EAEE841004007F3 /* FingerWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AC9A5C1EAEE841004007F3 /* FingerWalletUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerWalletUITests.m; sourceTree = "<group>"; };
 		18AC9A5E1EAEE841004007F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AC9A6C1EAEE8BB004007F3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18AC9A6E1EAEE90B004007F3 /* JYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBaseViewController.h; sourceTree = "<group>"; };
+		18AC9A6F1EAEE90B004007F3 /* JYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBaseViewController.m; sourceTree = "<group>"; };
+		18AC9A711EAEE91D004007F3 /* JYBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBaseNavigationController.h; sourceTree = "<group>"; };
+		18AC9A721EAEE91D004007F3 /* JYBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBaseNavigationController.m; sourceTree = "<group>"; };
+		18AC9A741EAEE92A004007F3 /* JYTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTools.h; sourceTree = "<group>"; };
+		18AC9A751EAEE92A004007F3 /* JYTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTools.m; sourceTree = "<group>"; };
+		18AC9A781EAEE954004007F3 /* JYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTabBarController.h; sourceTree = "<group>"; };
+		18AC9A791EAEE954004007F3 /* JYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTabBarController.m; sourceTree = "<group>"; };
+		18AC9A7E1EAEE9A6004007F3 /* JYBrowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBrowerViewController.h; sourceTree = "<group>"; };
+		18AC9A7F1EAEE9A6004007F3 /* JYBrowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBrowerViewController.m; sourceTree = "<group>"; };
+		18AC9A811EAEE9AF004007F3 /* JYReturnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYReturnViewController.h; sourceTree = "<group>"; };
+		18AC9A821EAEE9AF004007F3 /* JYReturnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYReturnViewController.m; sourceTree = "<group>"; };
+		18AC9A841EAEE9B6004007F3 /* JYMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYMineViewController.h; sourceTree = "<group>"; };
+		18AC9A851EAEE9B6004007F3 /* JYMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYMineViewController.m; sourceTree = "<group>"; };
+		18AC9AA01EAEF8E0004007F3 /* brower_sl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brower_sl@2x.png"; sourceTree = "<group>"; };
+		18AC9AA11EAEF8E0004007F3 /* brower@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brower@2x.png"; sourceTree = "<group>"; };
+		18AC9AA21EAEF8E0004007F3 /* return_sl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "return_sl@2x.png"; sourceTree = "<group>"; };
+		18AC9AA31EAEF8E0004007F3 /* return@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "return@2x.png"; sourceTree = "<group>"; };
+		18AC9AA41EAEF8E0004007F3 /* mine_sl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mine_sl@2x.png"; sourceTree = "<group>"; };
+		18AC9AA51EAEF8E0004007F3 /* mine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mine@2x.png"; sourceTree = "<group>"; };
+		18AC9AAC1EAEFCB8004007F3 /* tou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tou.png; sourceTree = "<group>"; };
+		18AC9AAE1EAEFF37004007F3 /* msgImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msgImage.png; sourceTree = "<group>"; };
+		18AC9AB11EAF0AB9004007F3 /* JYBMoneyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBMoneyTableViewCell.h; sourceTree = "<group>"; };
+		18AC9AB21EAF0AB9004007F3 /* JYBMoneyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBMoneyTableViewCell.m; sourceTree = "<group>"; };
+		18AC9AB31EAF0AB9004007F3 /* JYBMoneyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYBMoneyTableViewCell.xib; sourceTree = "<group>"; };
+		18AC9AB61EAF0AC8004007F3 /* JYBDaysTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBDaysTableViewCell.h; sourceTree = "<group>"; };
+		18AC9AB71EAF0AC8004007F3 /* JYBDaysTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBDaysTableViewCell.m; sourceTree = "<group>"; };
+		18AC9AB81EAF0AC8004007F3 /* JYBDaysTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYBDaysTableViewCell.xib; sourceTree = "<group>"; };
+		18AC9ABC1EAF0C98004007F3 /* UIViewController+DismissKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DismissKeyboard.h"; sourceTree = "<group>"; };
+		18AC9ABD1EAF0C98004007F3 /* UIViewController+DismissKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DismissKeyboard.m"; sourceTree = "<group>"; };
+		18AC9ABF1EAF1374004007F3 /* UITextField+CHTHealper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CHTHealper.h"; sourceTree = "<group>"; };
+		18AC9AC01EAF1374004007F3 /* UITextField+CHTHealper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CHTHealper.m"; sourceTree = "<group>"; };
+		18AC9AC41EAF15A0004007F3 /* navBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBG.png; sourceTree = "<group>"; };
+		18AC9AC71EAF1A5A004007F3 /* JYRMoneyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYRMoneyTableViewCell.h; sourceTree = "<group>"; };
+		18AC9AC81EAF1A5A004007F3 /* JYRMoneyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYRMoneyTableViewCell.m; sourceTree = "<group>"; };
+		18AC9AC91EAF1A5A004007F3 /* JYRMoneyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYRMoneyTableViewCell.xib; sourceTree = "<group>"; };
+		18AC9ACD1EAF2278004007F3 /* JYMineMoneyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYMineMoneyView.h; sourceTree = "<group>"; };
+		18AC9ACE1EAF2278004007F3 /* JYMineMoneyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYMineMoneyView.m; sourceTree = "<group>"; };
+		4273EE37AAB83AE7304A93D2 /* Pods-FingerWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FingerWallet/Pods-FingerWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		5709C8B5D49B4197DC2D6258 /* Pods-FingerWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerWalletTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FingerWalletTests/Pods-FingerWalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		7982993ADEF32FE665EE00E1 /* Pods-FingerWalletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerWalletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FingerWalletUITests/Pods-FingerWalletUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80EAD32A0DF7CF2B52448EF8 /* libPods-FingerWalletUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FingerWalletUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96DD06059463D020A0103388 /* libPods-FingerWallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FingerWallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90AFDA10A8865BBE48F962B /* Pods-FingerWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerWalletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FingerWalletTests/Pods-FingerWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D67D29293FBC010787B7072B /* libPods-FingerWalletTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FingerWalletTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD51C8FFD1BE61ED93D18743 /* Pods-FingerWalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerWalletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FingerWalletUITests/Pods-FingerWalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA89692DECEF1E2F0E30F05D /* Pods-FingerWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-FingerWallet/Pods-FingerWallet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC6AA4FFC58C9C674CDC53D /* libPods-FingerWallet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDCBA87E33D1976922ECD94C /* libPods-FingerWalletTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24EB5C4F0107A10F1542D57 /* libPods-FingerWalletUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +164,8 @@
 				18AC9A501EAEE840004007F3 /* FingerWalletTests */,
 				18AC9A5B1EAEE841004007F3 /* FingerWalletUITests */,
 				18AC9A351EAEE840004007F3 /* Products */,
+				9C32D5F1B8E45C0FA959D20D /* Pods */,
+				81A062E6ADEF707D147848EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +182,14 @@
 		18AC9A361EAEE840004007F3 /* FingerWallet */ = {
 			isa = PBXGroup;
 			children = (
-				18AC9A3A1EAEE840004007F3 /* AppDelegate.h */,
-				18AC9A3B1EAEE840004007F3 /* AppDelegate.m */,
-				18AC9A3D1EAEE840004007F3 /* ViewController.h */,
-				18AC9A3E1EAEE840004007F3 /* ViewController.m */,
-				18AC9A401EAEE840004007F3 /* Main.storyboard */,
-				18AC9A431EAEE840004007F3 /* Assets.xcassets */,
-				18AC9A451EAEE840004007F3 /* LaunchScreen.storyboard */,
-				18AC9A481EAEE840004007F3 /* Info.plist */,
+				18AC9ABB1EAF0C84004007F3 /* Category */,
+				18AC9A871EAEF68A004007F3 /* Images */,
+				18AC9A7D1EAEE983004007F3 /* Mine */,
+				18AC9A7C1EAEE97A004007F3 /* Return */,
+				18AC9A7B1EAEE95B004007F3 /* Brower */,
+				18AC9A6D1EAEE8E2004007F3 /* Common */,
+				18AC9A6B1EAEE8AC004007F3 /* Tools */,
+				18AC9A6A1EAEE899004007F3 /* Others */,
 				18AC9A371EAEE840004007F3 /* Supporting Files */,
 			);
 			path = FingerWallet;
@@ -140,6 +221,156 @@
 			path = FingerWalletUITests;
 			sourceTree = "<group>";
 		};
+		18AC9A6A1EAEE899004007F3 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9A3A1EAEE840004007F3 /* AppDelegate.h */,
+				18AC9A3B1EAEE840004007F3 /* AppDelegate.m */,
+				18AC9A3D1EAEE840004007F3 /* ViewController.h */,
+				18AC9A3E1EAEE840004007F3 /* ViewController.m */,
+				18AC9A401EAEE840004007F3 /* Main.storyboard */,
+				18AC9A431EAEE840004007F3 /* Assets.xcassets */,
+				18AC9A451EAEE840004007F3 /* LaunchScreen.storyboard */,
+				18AC9A481EAEE840004007F3 /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		18AC9A6B1EAEE8AC004007F3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9A6C1EAEE8BB004007F3 /* PrefixHeader.pch */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		18AC9A6D1EAEE8E2004007F3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9A781EAEE954004007F3 /* JYTabBarController.h */,
+				18AC9A791EAEE954004007F3 /* JYTabBarController.m */,
+				18AC9A6E1EAEE90B004007F3 /* JYBaseViewController.h */,
+				18AC9A6F1EAEE90B004007F3 /* JYBaseViewController.m */,
+				18AC9A711EAEE91D004007F3 /* JYBaseNavigationController.h */,
+				18AC9A721EAEE91D004007F3 /* JYBaseNavigationController.m */,
+				18AC9A741EAEE92A004007F3 /* JYTools.h */,
+				18AC9A751EAEE92A004007F3 /* JYTools.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		18AC9A7B1EAEE95B004007F3 /* Brower */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9AB01EAF0A8A004007F3 /* Views */,
+				18AC9A7E1EAEE9A6004007F3 /* JYBrowerViewController.h */,
+				18AC9A7F1EAEE9A6004007F3 /* JYBrowerViewController.m */,
+			);
+			path = Brower;
+			sourceTree = "<group>";
+		};
+		18AC9A7C1EAEE97A004007F3 /* Return */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9AC61EAF1A41004007F3 /* Views */,
+				18AC9A811EAEE9AF004007F3 /* JYReturnViewController.h */,
+				18AC9A821EAEE9AF004007F3 /* JYReturnViewController.m */,
+			);
+			path = Return;
+			sourceTree = "<group>";
+		};
+		18AC9A7D1EAEE983004007F3 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9ACC1EAF2235004007F3 /* Views */,
+				18AC9A841EAEE9B6004007F3 /* JYMineViewController.h */,
+				18AC9A851EAEE9B6004007F3 /* JYMineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		18AC9A871EAEF68A004007F3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9AC41EAF15A0004007F3 /* navBG.png */,
+				18AC9AAE1EAEFF37004007F3 /* msgImage.png */,
+				18AC9AAC1EAEFCB8004007F3 /* tou.png */,
+				18AC9AA01EAEF8E0004007F3 /* brower_sl@2x.png */,
+				18AC9AA11EAEF8E0004007F3 /* brower@2x.png */,
+				18AC9AA21EAEF8E0004007F3 /* return_sl@2x.png */,
+				18AC9AA31EAEF8E0004007F3 /* return@2x.png */,
+				18AC9AA41EAEF8E0004007F3 /* mine_sl@2x.png */,
+				18AC9AA51EAEF8E0004007F3 /* mine@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		18AC9AB01EAF0A8A004007F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9AB11EAF0AB9004007F3 /* JYBMoneyTableViewCell.h */,
+				18AC9AB21EAF0AB9004007F3 /* JYBMoneyTableViewCell.m */,
+				18AC9AB31EAF0AB9004007F3 /* JYBMoneyTableViewCell.xib */,
+				18AC9AB61EAF0AC8004007F3 /* JYBDaysTableViewCell.h */,
+				18AC9AB71EAF0AC8004007F3 /* JYBDaysTableViewCell.m */,
+				18AC9AB81EAF0AC8004007F3 /* JYBDaysTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18AC9ABB1EAF0C84004007F3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9ABF1EAF1374004007F3 /* UITextField+CHTHealper.h */,
+				18AC9AC01EAF1374004007F3 /* UITextField+CHTHealper.m */,
+				18AC9ABC1EAF0C98004007F3 /* UIViewController+DismissKeyboard.h */,
+				18AC9ABD1EAF0C98004007F3 /* UIViewController+DismissKeyboard.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		18AC9AC61EAF1A41004007F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9AC71EAF1A5A004007F3 /* JYRMoneyTableViewCell.h */,
+				18AC9AC81EAF1A5A004007F3 /* JYRMoneyTableViewCell.m */,
+				18AC9AC91EAF1A5A004007F3 /* JYRMoneyTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18AC9ACC1EAF2235004007F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18AC9ACD1EAF2278004007F3 /* JYMineMoneyView.h */,
+				18AC9ACE1EAF2278004007F3 /* JYMineMoneyView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81A062E6ADEF707D147848EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96DD06059463D020A0103388 /* libPods-FingerWallet.a */,
+				D67D29293FBC010787B7072B /* libPods-FingerWalletTests.a */,
+				80EAD32A0DF7CF2B52448EF8 /* libPods-FingerWalletUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C32D5F1B8E45C0FA959D20D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4273EE37AAB83AE7304A93D2 /* Pods-FingerWallet.debug.xcconfig */,
+				EA89692DECEF1E2F0E30F05D /* Pods-FingerWallet.release.xcconfig */,
+				C90AFDA10A8865BBE48F962B /* Pods-FingerWalletTests.debug.xcconfig */,
+				5709C8B5D49B4197DC2D6258 /* Pods-FingerWalletTests.release.xcconfig */,
+				DD51C8FFD1BE61ED93D18743 /* Pods-FingerWalletUITests.debug.xcconfig */,
+				7982993ADEF32FE665EE00E1 /* Pods-FingerWalletUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +378,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18AC9A611EAEE841004007F3 /* Build configuration list for PBXNativeTarget "FingerWallet" */;
 			buildPhases = (
+				B0F7C2D3C382E4D615D78FF3 /* [CP] Check Pods Manifest.lock */,
 				18AC9A301EAEE840004007F3 /* Sources */,
 				18AC9A311EAEE840004007F3 /* Frameworks */,
 				18AC9A321EAEE840004007F3 /* Resources */,
+				1450ABE97362856726CDF1C1 /* [CP] Embed Pods Frameworks */,
+				08069F5665B6FE72BC9E08E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +398,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18AC9A641EAEE841004007F3 /* Build configuration list for PBXNativeTarget "FingerWalletTests" */;
 			buildPhases = (
+				7E261411F7912E22CCFE3065 /* [CP] Check Pods Manifest.lock */,
 				18AC9A491EAEE840004007F3 /* Sources */,
 				18AC9A4A1EAEE840004007F3 /* Frameworks */,
 				18AC9A4B1EAEE840004007F3 /* Resources */,
+				01635371ADC6B23E6DDE11A5 /* [CP] Embed Pods Frameworks */,
+				835B6D373D48C13BA583F777 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +419,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18AC9A671EAEE841004007F3 /* Build configuration list for PBXNativeTarget "FingerWalletUITests" */;
 			buildPhases = (
+				44892E09B8FAA29A7B966D61 /* [CP] Check Pods Manifest.lock */,
 				18AC9A541EAEE841004007F3 /* Sources */,
 				18AC9A551EAEE841004007F3 /* Frameworks */,
 				18AC9A561EAEE841004007F3 /* Resources */,
+				3961A63689A6E03319EF3218 /* [CP] Embed Pods Frameworks */,
+				F94CEA2FEF2409F9091B6D25 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +486,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AC9AA61EAEF8E0004007F3 /* brower_sl@2x.png in Resources */,
 				18AC9A471EAEE840004007F3 /* LaunchScreen.storyboard in Resources */,
+				18AC9AAB1EAEF8E1004007F3 /* mine@2x.png in Resources */,
+				18AC9AAF1EAEFF37004007F3 /* msgImage.png in Resources */,
+				18AC9AAA1EAEF8E1004007F3 /* mine_sl@2x.png in Resources */,
+				18AC9AA71EAEF8E0004007F3 /* brower@2x.png in Resources */,
+				18AC9AC51EAF15A0004007F3 /* navBG.png in Resources */,
+				18AC9ACB1EAF1A5A004007F3 /* JYRMoneyTableViewCell.xib in Resources */,
 				18AC9A441EAEE840004007F3 /* Assets.xcassets in Resources */,
 				18AC9A421EAEE840004007F3 /* Main.storyboard in Resources */,
+				18AC9AA91EAEF8E0004007F3 /* return@2x.png in Resources */,
+				18AC9AAD1EAEFCB8004007F3 /* tou.png in Resources */,
+				18AC9AB51EAF0AB9004007F3 /* JYBMoneyTableViewCell.xib in Resources */,
+				18AC9ABA1EAF0AC8004007F3 /* JYBDaysTableViewCell.xib in Resources */,
+				18AC9AA81EAEF8E0004007F3 /* return_sl@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +520,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01635371ADC6B23E6DDE11A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FingerWalletTests/Pods-FingerWalletTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08069F5665B6FE72BC9E08E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FingerWallet/Pods-FingerWallet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1450ABE97362856726CDF1C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FingerWallet/Pods-FingerWallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3961A63689A6E03319EF3218 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FingerWalletUITests/Pods-FingerWalletUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44892E09B8FAA29A7B966D61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E261411F7912E22CCFE3065 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		835B6D373D48C13BA583F777 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FingerWalletTests/Pods-FingerWalletTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0F7C2D3C382E4D615D78FF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F94CEA2FEF2409F9091B6D25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FingerWalletUITests/Pods-FingerWalletUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18AC9A301EAEE840004007F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AC9A731EAEE91D004007F3 /* JYBaseNavigationController.m in Sources */,
+				18AC9ABE1EAF0C98004007F3 /* UIViewController+DismissKeyboard.m in Sources */,
+				18AC9A7A1EAEE954004007F3 /* JYTabBarController.m in Sources */,
+				18AC9A861EAEE9B6004007F3 /* JYMineViewController.m in Sources */,
 				18AC9A3F1EAEE840004007F3 /* ViewController.m in Sources */,
+				18AC9A761EAEE92A004007F3 /* JYTools.m in Sources */,
+				18AC9ACA1EAF1A5A004007F3 /* JYRMoneyTableViewCell.m in Sources */,
 				18AC9A3C1EAEE840004007F3 /* AppDelegate.m in Sources */,
+				18AC9AB91EAF0AC8004007F3 /* JYBDaysTableViewCell.m in Sources */,
+				18AC9A701EAEE90B004007F3 /* JYBaseViewController.m in Sources */,
+				18AC9AB41EAF0AB9004007F3 /* JYBMoneyTableViewCell.m in Sources */,
+				18AC9ACF1EAF2278004007F3 /* JYMineMoneyView.m in Sources */,
+				18AC9A801EAEE9A6004007F3 /* JYBrowerViewController.m in Sources */,
+				18AC9A831EAEE9AF004007F3 /* JYReturnViewController.m in Sources */,
 				18AC9A391EAEE840004007F3 /* main.m in Sources */,
+				18AC9AC11EAF1374004007F3 /* UITextField+CHTHealper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +720,7 @@
 				18AC9A411EAEE840004007F3 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		18AC9A451EAEE840004007F3 /* LaunchScreen.storyboard */ = {
@@ -325,6 +729,7 @@
 				18AC9A461EAEE840004007F3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -420,8 +825,10 @@
 		};
 		18AC9A621EAEE841004007F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4273EE37AAB83AE7304A93D2 /* Pods-FingerWallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FingerWallet/Tools/PrefixHeader.pch";
 				INFOPLIST_FILE = FingerWallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JY.FingerWallet;
@@ -431,8 +838,10 @@
 		};
 		18AC9A631EAEE841004007F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA89692DECEF1E2F0E30F05D /* Pods-FingerWallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FingerWallet/Tools/PrefixHeader.pch";
 				INFOPLIST_FILE = FingerWallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JY.FingerWallet;
@@ -442,6 +851,7 @@
 		};
 		18AC9A651EAEE841004007F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C90AFDA10A8865BBE48F962B /* Pods-FingerWalletTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FingerWalletTests/Info.plist;
@@ -454,6 +864,7 @@
 		};
 		18AC9A661EAEE841004007F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709C8B5D49B4197DC2D6258 /* Pods-FingerWalletTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FingerWalletTests/Info.plist;
@@ -466,6 +877,7 @@
 		};
 		18AC9A681EAEE841004007F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD51C8FFD1BE61ED93D18743 /* Pods-FingerWalletUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FingerWalletUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -477,6 +889,7 @@
 		};
 		18AC9A691EAEE841004007F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7982993ADEF32FE665EE00E1 /* Pods-FingerWalletUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FingerWalletUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -505,6 +918,7 @@
 				18AC9A631EAEE841004007F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18AC9A641EAEE841004007F3 /* Build configuration list for PBXNativeTarget "FingerWalletTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +927,7 @@
 				18AC9A661EAEE841004007F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18AC9A671EAEE841004007F3 /* Build configuration list for PBXNativeTarget "FingerWalletUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +936,7 @@
 				18AC9A691EAEE841004007F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

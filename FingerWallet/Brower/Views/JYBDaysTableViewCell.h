@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^finshEnterDays)(NSString * days);
+
 @interface JYBDaysTableViewCell : UITableViewCell
+
+@property (nonatomic, copy) finshEnterDays finshEnter;
 
 @end

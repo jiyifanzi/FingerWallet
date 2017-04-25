@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -11,9 +15,79 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <frame key="frameInset" width="320" height="43"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="借款期限" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jWU-N4-h8a">
+                        <rect key="frame" x="10" y="13.5" width="61.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="天" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIe-jO-yub">
+                        <rect key="frame" x="294.5" y="13" width="15.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJP-eD-N6Q">
+                        <rect key="frame" x="179.5" y="7" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="FId-Rb-Ewv"/>
+                            <constraint firstAttribute="width" constant="30" id="XVi-SN-rY1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                        <state key="normal" title="-">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="subClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="FTN-Qq-r16"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7n-gk-iaj">
+                        <rect key="frame" x="259.5" y="7" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="k7a-gG-0pE"/>
+                            <constraint firstAttribute="width" constant="30" id="oeB-vS-yRq"/>
+                        </constraints>
+                        <state key="normal" title="+">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="addClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="qhb-Ur-Wps"/>
+                        </connections>
+                    </button>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="天数" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IQH-e6-BAM">
+                        <rect key="frame" x="210" y="7.5" width="50" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="3fs-iC-sVA"/>
+                            <constraint firstAttribute="height" constant="30" id="8ob-cG-Q7G"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="BJP-eD-N6Q" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="8iv-BC-wGz"/>
+                    <constraint firstItem="jWU-N4-h8a" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="98y-As-RqJ"/>
+                    <constraint firstAttribute="trailing" secondItem="pIe-jO-yub" secondAttribute="trailing" constant="10" id="FJe-v0-0tX"/>
+                    <constraint firstItem="jWU-N4-h8a" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="JMB-EV-fpg"/>
+                    <constraint firstItem="B7n-gk-iaj" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Jay-AF-QQo"/>
+                    <constraint firstItem="pIe-jO-yub" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="TLS-Js-Sww"/>
+                    <constraint firstItem="BJP-eD-N6Q" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="WXW-dF-zK1"/>
+                    <constraint firstItem="pIe-jO-yub" firstAttribute="leading" secondItem="B7n-gk-iaj" secondAttribute="trailing" constant="5" id="cPc-xD-H4L"/>
+                    <constraint firstItem="IQH-e6-BAM" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="eCY-B7-MoY"/>
+                    <constraint firstItem="B7n-gk-iaj" firstAttribute="leading" secondItem="IQH-e6-BAM" secondAttribute="trailing" id="f0e-ZG-ol9"/>
+                    <constraint firstItem="B7n-gk-iaj" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="hb6-QI-fmy"/>
+                    <constraint firstItem="IQH-e6-BAM" firstAttribute="leading" secondItem="BJP-eD-N6Q" secondAttribute="trailing" id="sdO-Qs-YWe"/>
+                </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="addBtn" destination="B7n-gk-iaj" id="9mM-By-56j"/>
+                <outlet property="daysTextField" destination="IQH-e6-BAM" id="ZYW-GC-sad"/>
+                <outlet property="subBtn" destination="BJP-eD-N6Q" id="hE2-u0-bp3"/>
+            </connections>
         </tableViewCell>
     </objects>
 </document>

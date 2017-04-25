@@ -7,6 +7,7 @@
 //
 
 #import "JYBaseViewController.h"
+#import "UIViewController+DismissKeyboard.h"
 
 @interface JYBaseViewController ()
 
@@ -17,6 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = JYColorFromRGB(245, 245, 245);
+    
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:self action:nil];
+    
+    //  去掉底部的线
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navBG"] forBarMetrics:UIBarMetricsDefault];
+    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+
 }
 
 - (void)didReceiveMemoryWarning {

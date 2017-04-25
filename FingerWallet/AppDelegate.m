@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "UIViewController+DismissKeyboard.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,7 +19,37 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self setupNavUI];
+    
+    [self showMainTabBarController];
+    
+    
     return YES;
+}
+
+#pragma mark - 定制Navgation界面
+- (void)setupNavUI {
+    [[UINavigationBar appearance] setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:135/255.0 green:120/255.0 blue:125/255.0 alpha:1.0], NSForegroundColorAttributeName, [UIFont systemFontOfSize:17 weight:UIFontWeightBold], NSFontAttributeName, nil]];
+    
+    [[UINavigationBar appearance] setBackIndicatorImage:
+     [[UIImage imageNamed:@"fanhui_1"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]];
+    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:
+     [[UIImage imageNamed:@"fanhui_1"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]];
+    [UINavigationBar appearance].tintColor = [UIColor colorWithRed:135/255.0 green:120/255.0 blue:125/255.0 alpha:1.0];
+    [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
+    [[UITabBar appearance] setBackgroundColor:[UIColor whiteColor]];
+}
+
+#pragma mark - 进入主页面
+- (void)showMainTabBarController {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    _mainTabBarController = [[JYTabBarController alloc] init];
+    self.window.rootViewController = _mainTabBarController;
 }
 
 

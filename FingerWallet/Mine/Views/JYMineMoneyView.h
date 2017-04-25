@@ -10,4 +10,9 @@
 
 @interface JYMineMoneyView : UIView
 
+
+@property (nonatomic, strong) NSString * titleStr;
+@property (nonatomic, strong) NSString * contentStr;
+
+
 @end

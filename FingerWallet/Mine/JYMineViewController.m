@@ -10,6 +10,19 @@
 
 @interface JYMineViewController ()
 
+@property (nonatomic, strong) UITableView * tableView;
+
+//  头部视图
+@property (nonatomic, strong) UIView * headerView;
+//  头像
+@property (nonatomic, strong) UIImageView * headIcon;
+//  积分板块
+@property (nonatomic, strong) UIView * oneView;
+
+
+//  认证模块
+@property (nonatomic, strong) UIView * twoView;
+
 @end
 
 @implementation JYMineViewController

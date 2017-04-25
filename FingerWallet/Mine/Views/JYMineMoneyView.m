@@ -8,14 +8,33 @@
 
 #import "JYMineMoneyView.h"
 
+@interface JYMineMoneyView ()
+
+@property (nonatomic, strong) UILabel * titleLabel;
+
+@property (nonatomic, strong) UILabel * contentLabel;
+
+
+@end
+
 @implementation JYMineMoneyView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+
+- (instancetype)init {
+    if (self = [super init]) {
+        [self setupSubViews];
+    }
+    return self;
 }
-*/
+
+#pragma mark - 初始化子空间
+- (void)setupSubViews {
+    _titleLabel = [[UILabel alloc] init];
+    [self addSubview:_titleLabel];
+    
+    [_titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+    }];
+}
 
 @end

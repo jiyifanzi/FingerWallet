@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -11,9 +15,42 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <frame key="frameInset" width="320" height="43"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="借款金额" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyp-QD-xAN">
+                        <rect key="frame" x="10" y="13" width="62" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="元" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpX-WC-csk">
+                        <rect key="frame" x="294" y="13" width="16" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入借款金额" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JgG-Zm-lDO">
+                        <rect key="frame" x="72" y="0.0" width="212" height="44"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yyp-QD-xAN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="0C3-Qp-Vl1"/>
+                    <constraint firstAttribute="bottom" secondItem="JgG-Zm-lDO" secondAttribute="bottom" id="97w-l9-qCV"/>
+                    <constraint firstItem="JgG-Zm-lDO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="9d0-C9-AOL"/>
+                    <constraint firstItem="xpX-WC-csk" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="W4C-FN-TzB"/>
+                    <constraint firstItem="JgG-Zm-lDO" firstAttribute="leading" secondItem="yyp-QD-xAN" secondAttribute="trailing" id="dW0-b6-BKQ"/>
+                    <constraint firstAttribute="trailing" secondItem="xpX-WC-csk" secondAttribute="trailing" constant="10" id="g5C-hn-rw0"/>
+                    <constraint firstItem="yyp-QD-xAN" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="jn8-cO-LiH"/>
+                    <constraint firstItem="xpX-WC-csk" firstAttribute="leading" secondItem="JgG-Zm-lDO" secondAttribute="trailing" constant="10" id="kFd-uD-2ND"/>
+                </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="bMoney" destination="JgG-Zm-lDO" id="4Wg-IX-RrH"/>
+            </connections>
         </tableViewCell>
     </objects>
 </document>
